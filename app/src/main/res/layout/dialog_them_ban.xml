@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="#F1D795"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textThem"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#7A2929"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Thêm bàn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Nhập tên bàn"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextTenBan"
+        android:layout_below="@id/textThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Thêm"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonThem"
+        android:layout_below="@id/editTextTenBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Hủy"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/buttonThem"
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonHuy"
+        android:layout_below="@id/editTextTenBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
